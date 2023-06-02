@@ -26,14 +26,14 @@ app.use(express.urlencoded({ extended: true }))
 app.use(morgan('dev'))
 
 app.get('/', (req, res) => {
-    res.redirect('/blogs')
+    res.redirect('/logs')
 })
 
 app.get('/about', (req, res) => {
     res.render('about', { title: 'About'})
 })
 
-app.use('/blogs', blogRoutes)
+app.use('/logs', blogRoutes)
 
 //404 page (has to be at bottom)
 app.use((req, res) =>{
