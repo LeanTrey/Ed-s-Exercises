@@ -119,9 +119,9 @@
     }
     @media only screen and (max-width: 600px) {
       nav h1{
-        font-size: 35px;
+        font-size: 32px;
       }
       body {
-        scale: .80;
+        scale: .78;
       }
     }
