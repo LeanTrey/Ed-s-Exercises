@@ -117,3 +117,11 @@
       font-size: 1.2em;
       cursor: pointer;
     }
+    @media only screen and (max-width: 600px) {
+      nav h1{
+        font-size: 65%;
+      }
+      body {
+        scale: .75;
+      }
+    }
